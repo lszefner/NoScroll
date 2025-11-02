@@ -10,11 +10,6 @@ An Android app that automatically blocks Instagram Reels to help you stay focuse
 - **Dark Mode Support**: Beautiful dark/light theme switching
 - **No Database**: Simple toggle-based control
 
-## Setup Instructions
-
-- **Run _npm run apk_ to get a downloadable apk**
-- **Connect to the phone to download**
-
 ### Prerequisites
 
 - Android device with Instagram installed
@@ -24,7 +19,7 @@ An Android app that automatically blocks Instagram Reels to help you stay focuse
 1. **Clone and Install**
 
    ```bash
-   git clone <repository>
+   git clone https://github.com/lszefner/NoScroll.git
    cd NoScroll
    npm install
    ```
@@ -32,7 +27,7 @@ An Android app that automatically blocks Instagram Reels to help you stay focuse
 2. **Build for Android**
 
    ```bash
-   npx expo run:android
+   npm run apk
    ```
 
 3. **Grant Permissions**
